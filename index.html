@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!---- Script de carregamento do service worker ---->
     <script>
-        if('servicerWorker' in navigator){
+        if('serviceWorker' in navigator){
             window.addEventListener('load', function(){
                 navigator.serviceWorker.register('sw.js').then(function(registration){
                     console.log('Servicer Worker registrado com sucesso, com escopo: ', registration.scope)
