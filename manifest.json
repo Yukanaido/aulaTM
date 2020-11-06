@@ -1,0 +1,14 @@
+{
+    "name": "Buscador de Código Postal",
+    "short_name": "Busca CEP",
+    "start_url": "index.html",
+    "icons": [{
+        "src": "img/favicon-32x32.png",
+        "size": "32×32",
+        "type": "image/png"
+    }],
+    "theme-color": "#1FD8B4",
+    "background-color": "#fff",
+    "display": "fullscreen",
+    "orientation": "any"
+}
